@@ -37,11 +37,15 @@ func main() {
 
 	// usando := las variables solo se puede ocupar dentro de las funciones
 	// usando var las variables se puede ocupar en todas las funciones
-	tipos()
 
 	firstName, lastName, age := "Fort", "Knox", 29
 
 	fmt.Println(firstName, lastName, age)
 	fmt.Println(Pi)
 	fmt.Println(x, y, z, w)
+
+	fmt.Println("tipos")
+	tipos()
+	fmt.Println("conversion")
+	conversion()
 }
